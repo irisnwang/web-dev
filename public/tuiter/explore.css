@@ -81,6 +81,8 @@
 
 
 .wd-mini-icon {
+  position: relative;
+  top: 2px;
   width: 13px;
   height: 13px;
 }
