@@ -27,6 +27,10 @@
     width: 90%;
 }
 
+input:focus{
+    outline: none;
+}
+
 .card-img-overlay.wd-override-card {
     top: auto;
 }
