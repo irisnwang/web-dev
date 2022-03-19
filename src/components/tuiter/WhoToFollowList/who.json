@@ -1,0 +1,14 @@
+[
+  {   "avatarIcon": "/tuiter/java.jpg",
+    "userName": "Java", "handle": "Java"
+  },
+  {   "avatarIcon": "/tuiter/relativityspace.jpg",
+    "userName": "Relativity Space",
+    "handle": "relativityspace" },
+  {   "avatarIcon": "/tuiter/virgin-logo.jpg",
+    "userName": "Virgin Galactic",
+    "handle": "virgingalactic" },
+  {   "avatarIcon": "/tuiter/nasa.jpg",
+    "userName": "NASA", "handle": "NASA" },
+  {   "avatarIcon": "/tuiter/tesla.png",
+    "userName": "Tesla", "handle": "Tesla" } ]

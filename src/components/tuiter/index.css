@@ -1,0 +1,32 @@
+.wd-maxi-avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-gray-color {
+    color: gray;
+}
+
+.wd-post-img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 20px;
+}
+
+.wd-blue-color {
+    color: rgb(29, 161, 242);
+}
+
+.wd-outline {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.wd-search-bar {
+    width: 90%;
+}
+
+.card-img-overlay.wd-override-card {
+    top: auto;
+}
