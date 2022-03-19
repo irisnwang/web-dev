@@ -13,7 +13,7 @@ const ExploreComponent = () => {
           </div>
 
           <div className="col-1">
-            <a href="#">
+            <a href=".">
               <i className="fas fa-cog wd-blue-color fa-2x"/>
             </a>
 
@@ -21,19 +21,19 @@ const ExploreComponent = () => {
         </div>
         <ul className="nav mb-2 nav-tabs">
           <li className="nav-item">
-            <a className="nav-link active" href="#">For you</a>
+            <a className="nav-link active" href=".">For you</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Trending</a>
+            <a className="nav-link" href=".">Trending</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">News</a>
+            <a className="nav-link" href=".">News</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Sports</a>
+            <a className="nav-link" href=".">Sports</a>
           </li>
           <li className="nav-item d-sm-none d-xxl-block d-xl-block d-lg-block d-md-block">
-            <a className="nav-link" href="#" tabIndex="-1">Entertainment</a>
+            <a className="nav-link" href="." tabIndex="-1">Entertainment</a>
           </li>
         </ul>
         <div className="card">

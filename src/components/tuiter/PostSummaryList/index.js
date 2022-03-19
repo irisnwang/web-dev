@@ -1,12 +1,10 @@
 import React from "react";
 import PostSummaryListItem from "./PostSummaryListItem.js";
 import posts from "./posts.json"
-import who from "../WhoToFollowList/who.json";
-import WhoToFollowListItem from "../WhoToFollowList/WhoToFollowListItem";
 
 const PostSummaryList = () => {
   return (
-            <ul class="list-group">
+            <ul className="list-group">
               {
                 posts.map(posts => {
                   return(
