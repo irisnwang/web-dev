@@ -8,7 +8,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
           <a href="." className="list-group-item">
             <i className="fas fa-home fa-inverse"/>
             <span className="d-none d-xxl-inline d-xl-inline"> Home</span></a>
-          <a href="." className="list-group-item active">
+          <a href="./explore" className="list-group-item active">
             <i className="fas fa-hashtag fa-inverse"/>
             <span className="d-none d-xxl-inline d-xl-inline"> Explore</span></a>
           <a href="." className="list-group-item">

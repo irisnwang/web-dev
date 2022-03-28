@@ -6,8 +6,7 @@ const ExploreComponent = () => {
   return(
       <div>
         <div className="row mb-2">
-
-          <div className="wd-outline col-10 bg-white">
+          <div className="wd-outline col-10 bg-white wd-16px-left-margin">
             <i className="fas fa-search pt-1"/>
             <input type="text" className="border-0 pt-1 wd-search-bar" placeholder="Search Tuiter"/>
           </div>

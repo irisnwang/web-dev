@@ -20,7 +20,6 @@
 
 .wd-outline {
     border-radius: 20px;
-    border: 1px solid lightgray;
 }
 
 .wd-search-bar {
@@ -33,4 +32,8 @@ input:focus{
 
 .card-img-overlay.wd-override-card {
     top: auto;
+}
+
+.wd-16px-left-margin {
+    margin-left: 16px;
 }
