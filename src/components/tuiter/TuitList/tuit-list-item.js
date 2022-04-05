@@ -4,7 +4,7 @@ import {useDispatch} from "react-redux";
 import '../../../vendors/bootstrap/css/bootstrap.min.css'
 import '../../../vendors/fontawesome/css/fontawesome.min.css'
 import TweetStats from "./tuit-stats";
-
+import {deleteTuit} from "../../../actions/tuits-actions";
 
 const TuitListItem = ({
     key,
@@ -12,14 +12,17 @@ const TuitListItem = ({
     "topic": "Web Development",
     "postedBy": {"userName": "ReactJS"},
     "time": "2h",
+    "liked": true,
     "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "logoimage": "/tuiter/react.png"
+    "logoimage": "/tuiter/react.png",
+    "stats": {
+      "retuits": 0,
+      "comments": 0,
+      "likes": 0
+    }
   }
 }) => {
   const dispatch = useDispatch();
-  const deleteTuit = (tuit) => {
-    dispatch({type: 'delete-tuit', tuit})
-  };
   return(
       <li className="list-group-item">
         <table>
@@ -29,8 +32,8 @@ const TuitListItem = ({
                    src={tuit['logoimage']}/>
             </td>
             <td className="ps-3" style={{width: '100%'}}>
-              <i onClick={() =>
-                  deleteTuit(tuit)}
+              <i onClick={() => deleteTuit(
+                  dispatch, tuit)}
                  className="fas fa-times fa-pull-right"/>
               <span className="fw-bold">{tuit.postedBy.username}</span>
               {tuit.verified && <i className="ms-1 fas fa-check-circle"/>}

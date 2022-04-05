@@ -2,17 +2,12 @@ import React, {useState} from "react";
 import "../../../vendors/bootstrap/css/bootstrap.min.css"
 import "../index.css"
 import {useDispatch} from "react-redux";
+import {createTuit} from "../../../actions/tuits-actions";
 
 const WhatsHappening = () => {
-  let [whatsHappening, setWhatsHappening]
-      = useState('');
   const dispatch = useDispatch();
-  const tuitClickHandler = () => {
-    dispatch({type: 'create-tuit',
-      tuit: whatsHappening
-    });
-  }
-
+  const [newTuit, setNewTuit] =
+      useState({tuit: 'What\'s happening?'});
   return (
       <>
         <table style={{marginBottom: '16px'}}>
@@ -23,8 +18,11 @@ const WhatsHappening = () => {
                    style={{margin: '16px'}}/>
             </td>
             <td style={{width: "100%"}}>
-                        <textarea value={whatsHappening}
-                                  onChange={(event) => setWhatsHappening(event.target.value)}
+                        <textarea value={newTuit.tuit}
+                                  onChange={(e) =>
+                                      setNewTuit({...newTuit,
+                                        tuit: e.target.value,
+                                        avatarimage: "/tuiter/ruby.png"})}
                                   className="form-control"
                                   style={{width: "100%", color: "white",
                                     padding: "0px",
@@ -38,7 +36,8 @@ const WhatsHappening = () => {
                             <a href="."><i className="far fa-smile me-3"></i></a>
                             <a href="."><i className="far fa-calendar me-3"></i></a>
                         </span>
-              <button onClick={tuitClickHandler} className="btn btn-primary fa-pull-right rounded-pill">
+              <button onClick={() =>
+                  createTuit(dispatch, newTuit)} className="btn btn-primary fa-pull-right rounded-pill">
                 Tweet
               </button>
             </td>

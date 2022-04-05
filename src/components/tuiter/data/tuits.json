@@ -15,11 +15,12 @@
       "video": "unKvMC3Y1kI"
     },
     "logoimage": "/tuiter/react.png",
-    "avatar-image": "/tuiter/react.png",
+    "avatarimage": "/tuiter/react.png",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 456
     }
   },
   {
@@ -38,12 +39,13 @@
     },
     "time": "last month",
     "logoimage": "/tuiter/node.png",
-    "avatar-image": "/tuiter/node.png",
+    "avatarimage": "/tuiter/node.png",
     "tuits": "120K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 456
     }
   },
   {
@@ -60,12 +62,13 @@
     "title": "JavaScript is programming language that can run on browsers as well as desktops",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "logoimage": "/tuiter/javascript.png",
-    "avatar-image": "/tuiter/javascript.png",
+    "avatarimage": "/tuiter/javascript.png",
     "tuits": "123K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 456
     }
   },
   {
@@ -81,12 +84,13 @@
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last week",
     "logoimage": "/tuiter/jquery.png",
-    "avatar-image": "/tuiter/jquery.png",
+    "avatarimage": "/tuiter/jquery.png",
     "tuits": "122K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 456
     }
   },
   {
@@ -102,12 +106,13 @@
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last month",
     "logoimage": "/tuiter/node.png",
-    "avatar-image": "/tuiter/node.png",
+    "avatarimage": "/tuiter/node.png",
     "tuits": "120K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 456
     }
   }
 ]
